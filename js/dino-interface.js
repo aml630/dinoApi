@@ -17,4 +17,9 @@ var getDinos = require('./../js/dino.js').getDinos;
       customDinos.then(fillContainer, error);
 
     });
+
+    $(".clearPage").click(function() {
+      // $("#userDino").html(" ");
+      location.reload();
+    })
   });
