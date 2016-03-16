@@ -1,7 +1,12 @@
+
+
 var getDinos = require('./../js/dino.js').getDinos;
+var getArticles = require('./../js/dino.js').getArticles;
+
 
   $(document).ready(function(){
     getDinos();
+    getArticles();
 
     $('#dinoForm').submit(function(event){
       event.preventDefault();
