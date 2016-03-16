@@ -1,5 +1,6 @@
 $gray : #d3d3d3;
 $green : #75B975;
+$red : #FF00FF;
 
 .box {
   background: $gray;
@@ -9,6 +10,13 @@ $green : #75B975;
     font-weight: bold;
     text-align: center;
     background: $green;
+    color: white;
+  }
+}
+
+#dinoForm {
+  .btn {
+    background: $red;
     color: white;
   }
 }

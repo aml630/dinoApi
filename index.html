@@ -1,4 +1,4 @@
-<h1>Hey</h1><html>
+<html>
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
     <link rel="stylesheet" href="build/css/styles.css">
@@ -14,7 +14,23 @@
         <h1>Dino API</h1>
       </div>
       <br>
-      <div id="map"></div>
+      <form id="dinoForm">
+        <div>
+          <input type="text" id="numOfParagraphs" placeholder="Number of Paragraphs">
+          <label for="numOfParagraphs" ></label>
+        </div>
+        <br>
+        <div>
+          <input type="text" id="wordsPerParagraph" placeholder="Words per Paragragh">
+          <label for="wordsPerParagraph" ></label>
+        </div>
+        <br>
+        <button class="btn" type="submit">Give me Dinos!</button>
+      </form>
+      <br>
+      <div id="userDino"></div>
+      <hr />
+      <div id="dino"></div>
     </div>
 
   </body>
