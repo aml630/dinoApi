@@ -21,5 +21,5 @@ var getDinos = require('./../js/dino.js').getDinos;
     $(".clearPage").click(function() {
       // $("#userDino").html(" ");
       location.reload();
-    })
+    });
   });

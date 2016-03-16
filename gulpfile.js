@@ -81,7 +81,7 @@ gulp.task('jshint', function(){
 var buildProduction = utilities.env.production;
 
 gulp.task('concatInterface', function() {
-  return gulp.src(['./js/dino-interface.js', './js/map-interface.js'])
+  return gulp.src(['./js/dino-interface.js', './js/map-interface.js', './js/city-interface.js'])
   .pipe(concat('allConcat.js'))
   .pipe(gulp.dest('./tmp'));
 });
